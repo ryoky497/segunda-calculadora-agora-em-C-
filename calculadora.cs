@@ -35,11 +35,14 @@ class Program
                 Console.WriteLine(numero / numero2);
             }
         }
-        else
+        else If (operador == "-")
         {
             Console.WriteLine(numero - numero2);
         }
-        
+        else
+        }
+            Console.WriteLine("impossível realizar   esta operação")
+        }
         Console.WriteLine("deseja continuar?");
         string resposta = Console.ReadLine();
         if (resposta == "sim")
